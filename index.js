@@ -33,4 +33,5 @@ function prependKitten(name) {
 
 function removeLastKitten() {
   var newkittens = [...kittens - 1];
+  return newkittens;
 }
