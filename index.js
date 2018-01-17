@@ -6,7 +6,7 @@ function destructivelyAppendKitten(name) {
   return kittens;
 }
 
-function destructiveltyPrependKitten(name) {
+function destructivelyPrependKitten(name) {
   kittens.shift(name);
   return kittens;
 }
